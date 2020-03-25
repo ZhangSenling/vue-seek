@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
     entry: {
         // element已经按需导入，无需在此再做打包
-        vendor: ['vue/dist/vue.esm.js', 'vue-router', 'axios']
+        vendor: ['vue/dist/vue.esm.js', 'vue-router', 'axios', '@antv/g6']
     },
     output: {
         path: path.join(__dirname, '../static/js'),

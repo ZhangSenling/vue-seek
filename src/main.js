@@ -4,7 +4,7 @@ import store from './store';
 import router from './router';
 import commonComponents from './components';
 
-// import '@/style/index.scss'; // global css
+import '@/style/element.scss';
 
 if (process.env.NODE_ENV === 'development') {
   require('../mock');
