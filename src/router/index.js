@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import HelloWorld from '@/components/HelloWorld';
+import Index from '@/views';
 
 Vue.use(Router);
 // 这种导入路由的方法自然是不支持懒加载了
@@ -14,8 +14,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'index',
+      component: Index
     },
     ...arr
   ]

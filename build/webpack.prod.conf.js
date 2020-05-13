@@ -51,6 +51,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     //   context: path.join(__dirname, '..'),
     //   manifest: require('./vendor-manifest.json')
     // }),
+    // 压缩代码
     new UglifyJsPlugin({
       uglifyOptions: {
         compress: {
